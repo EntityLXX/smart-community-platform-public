@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: SCTropikaStaging
+    env: docker
+    plan: free
+    autoDeploy: true
+    branch: staging
